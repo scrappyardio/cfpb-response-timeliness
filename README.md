@@ -187,7 +187,5 @@ states are close to uniform. Letting Power BI auto-fit would have stretched a
 - Timeliness is self-reported by the responding company.
 
 
-| `sql/filter_complaints.sql` | DuckDB filtering query |
-| `images/` | Page screenshots |
 
 **Tools:** Power BI, DAX, DuckDB, SQL
