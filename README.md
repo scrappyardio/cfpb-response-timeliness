@@ -48,7 +48,7 @@ relevant to the question. DuckDB reads the CSV without loading it into memory, s
 the filtering step runs on a laptop in under a minute. The Parquet output is the
 only file Power BI ever touches.
 
-Query: [`sql/filter_complaints.sql`](sql/filter_complaints.sql)
+Queries can be found in duckdb_prepare_data.sql
 
 ---
 
