@@ -129,7 +129,7 @@ January went 18K → 53K → 51K across the three years. Within each year, month
 are flat.
 
 **2. Timely response fell from 98.9% to 97.1%.**
-<!-- вставь скриншот линейного графика -->
+![line](images/line.png)
 
 **3. The decline came in two steps, not gradually.**
 2024 sits flat near 99%. The rate drops sharply across late 2024 into early
@@ -152,7 +152,7 @@ Banking issues 12–27% (problem with a purchase 27.3%, managing an account
 **6. Geography does not explain any of it.**
 Across the 25 largest states the rate spans 97.2%–98.6% — about half the spread
 across products.
-
+![map](images/map.png)
 
 
 **Together:** debt collection is rising in volume, falling in timeliness, and
