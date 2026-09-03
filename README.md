@@ -9,14 +9,16 @@ DuckDB preparation pipeline.
 
 ---
 
-## Question
+## About
+Initially data could not provide anything but around 100k filtered records or the entire unfiltered database. This is why I downloaded the entire 9GB file and utilized Duckdb in order to filter out the unnecessary data by using generic SQL syntax and also convert the .csv into .parquet because this file format is more optimized for work in Power BI in terms of sheer file size. Parquet is columnar and the compressed size was just 254 MB, and Power BI reads it far faster.
+I restricted the scope to just four products and excluded credit reporting, which is 11.9M of the 17.4M complaints - roughly eleven times everything else combined. Left in, every aggregate becomes a credit reporting metric. It's also a different process: high-volume automated disputes over report entries, where monetary relief barely applies. The four remaining products vary in size, from 655K debt collection complaints to 68K mortgages, but every metric here is a rate within a category, so volume differences don't distort them.
+Result: 1,145,121 complaints, January 2024 – July 2026.
+I had the following questions at the start of this project:
+Do complaints peak seasonally, and does response quality drop during peaks?
+Which complaint types end in compensation, and which only get an answer?
+Are some states worse than others?
+2/3 of the answers turned out to be no.
 
-Consumer complaints to the CFPB are answered by the companies they're filed
-against, and the regulator publishes whether each response arrived on time.
-I wanted to know whether that timeliness held steady as complaint volume grew —
-and if it didn't, where the decline actually sat.
-
-<!-- перепиши своими словами: почему ты выбрал именно этот датасет -->
 
 ---
 
