@@ -143,7 +143,7 @@ holds at 99.3%; credit card holds. Splitting by product rules out a composition
 effect — this isn't the product mix shifting, it's specific products getting
 slower.
 
-![Relief by issue](images/relief-by-issue.png)
+
 
 **5. Monetary relief differs by a factor of about fifty.**
 Banking issues 12–27% (problem with a purchase 27.3%, managing an account
@@ -153,7 +153,7 @@ Banking issues 12–27% (problem with a purchase 27.3%, managing an account
 Across the 25 largest states the rate spans 97.2%–98.6% — about half the spread
 across products.
 
-![Map by state](images/map-by-state.png)
+
 
 **Together:** debt collection is rising in volume, falling in timeliness, and
 almost never produces relief. Three independent metrics point at one category.
