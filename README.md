@@ -3,7 +3,7 @@
 Power BI dashboard analysing 1.1M US consumer finance complaints, built on a
 DuckDB preparation pipeline.
 
-![Overview](images/overview.png)
+![Page1](images/overview.png)
 
 ---
 
