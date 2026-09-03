@@ -186,14 +186,7 @@ states are close to uniform. Letting Power BI auto-fit would have stretched a
   a few large debt collectors.
 - Timeliness is self-reported by the responding company.
 
----
 
-## Files
-
-| | |
-|---|---|
-| `dashboard.pbix` | Power BI file |
-| `dashboard.pdf` | Static export, all three pages |
 | `sql/filter_complaints.sql` | DuckDB filtering query |
 | `images/` | Page screenshots |
 
