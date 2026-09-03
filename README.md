@@ -162,17 +162,17 @@ almost never produces relief. Three independent metrics point at one category.
 
 ## What I checked and rejected
 
-**Seasonality — rejected.** An apparent January peak in the first pass turned
+**Seasonality was rejected.** An apparent January peak in the first pass turned
 out to be an artefact of an incomplete 2026: fewer months of data pulled the
 early-month averages up. With the partial month excluded, the pattern disappears.
 
-**Geography as an explanation — rejected.** The map exists to test this, not to
+**Geography as an explanation was rejected.** The map exists to test this, not to
 decorate. The colour scale is fixed at 96–99.5% rather than auto-fitted to the
 data, so it's directly comparable to the product chart; on that shared scale the
 states are close to uniform. Letting Power BI auto-fit would have stretched a
 1.4-point spread across the full palette and made a non-finding look dramatic.
 
-**Dispute Rate as a metric — dropped.** Field no longer published.
+**Dispute Rate as a metric was dropped.** Field no longer published.
 
 ---
 
